@@ -19,5 +19,5 @@ jobs:
           go-version: "1.25.1"
 
       - name: Run go version
-        use:  echo "go-version: 1.25.1"
+        use:  print("go-version: "1.25.1")
         run:  (exit 0)
